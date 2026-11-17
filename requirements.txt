@@ -1,0 +1,5 @@
+flet
+python-dotenv
+pg8000
+certifi
+python-dateutil
