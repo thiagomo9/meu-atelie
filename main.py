@@ -675,7 +675,7 @@ def main(page: ft.Page):
             ft.Divider(height=20, color="transparent"),
             ft.Text("Sobre o Aplicativo", size=16, weight="bold", color="gray"),
             ft.ListTile(leading=ft.Icon(ft.Icons.BRUSH, color="purple"), title=ft.Text("Aplicativo"), subtitle=ft.Text("Meu Ateliê v1.1")),
-            ft.ListTile(leading=ft.Icon(ft.Icons.CODE, color="blue"), title=ft.Text("Thiago Oliveira"), subtitle=ft.Text("Suporte: (79) 9 8149-1530")),
+            ft.ListTile(leading=ft.Icon(ft.Icons.CODE, color="blue"), title=ft.Text("Thiago Oliveira"), subtitle=ft.Text("Suporte: (00) 00000-0000")),
             ft.Container(height=30),
             ft.Container(content=ft.Text("SAIR DA CONTA", color="white", weight="bold"), bgcolor="red", padding=15, border_radius=8, alignment=ft.Alignment.CENTER, ink=True, on_click=sair_da_conta)
         ], scroll="auto", expand=True)
